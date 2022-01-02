@@ -12,6 +12,11 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
+using ApexRestaurant.Repository;
+using ApexRestaurant.Services;
+
+using Microsoft.Extensions.Options;
+
 namespace ApexRestaurant.Api
 {
     public class Startup
@@ -26,6 +31,11 @@ namespace ApexRestaurant.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            RepositoryModule.Register(services,
+                Configuration.GetConnectionString("DefaultConnection"),
+            GetType().Assembly.FullName);
+            ServicesModule.Register(services);
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
