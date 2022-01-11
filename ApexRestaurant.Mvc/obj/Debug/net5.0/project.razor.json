@@ -15624,6 +15624,21 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\User\\Desktop\\DOTNET\\ApexRestaurant\\ApexRestaurant.Mvc\\Views\\Customer\\Index.cshtml",
+      "TargetPath": "Views\\Customer\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\DOTNET\\ApexRestaurant\\ApexRestaurant.Mvc\\Views\\Customer\\Create.cshtml",
+      "TargetPath": "Views\\Customer\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\DOTNET\\ApexRestaurant\\ApexRestaurant.Mvc\\Views\\Customer\\Edit.cshtml",
+      "TargetPath": "Views\\Customer\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\User\\Desktop\\DOTNET\\ApexRestaurant\\ApexRestaurant.Mvc\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
